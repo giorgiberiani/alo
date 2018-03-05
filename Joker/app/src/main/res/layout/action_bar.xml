@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/imageview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="luncher_icon"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOKER"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_toEndOf="@+id/imageview" />
+
+    <ImageButton
+        android:background="#4372a0"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/history_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/ic_action_name_history"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+
+
+</RelativeLayout>
